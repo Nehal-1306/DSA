@@ -19,7 +19,7 @@ public class MergeSort {
         while(left<=mid){
             temp.add(arr.get(left));
             left++;
-        }
+         }
         while(right<=high){
             temp.add(arr.get(right));
             right++;

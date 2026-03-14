@@ -19,11 +19,13 @@ import java.util.*;
 public static void main(String[] args) {
     Scanner s = new Scanner (System.in);
     ArrayList<ArrayList<Integer>> list = new ArrayList<>();
-    System.out.println("Enter the number of rows: ");
+    System.out.println("Enter the number: ");
     int n= s.nextInt();
+ //initialization
     for (int i=0;i<n;i++){
         list.add(new ArrayList());
     }
+ // add elements
     for (int i=0;i<n;i++){
         for (int j=0;j<n;j++){
             list.get(i).add(s.nextInt());

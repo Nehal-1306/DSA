@@ -31,6 +31,6 @@ public static void main(String[] args) {
             list.get(i).add(s.nextInt());
         }
     }
-    System.out.print(list);
+    System.out.println(list);
 }
  }
